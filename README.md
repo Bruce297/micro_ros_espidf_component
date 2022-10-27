@@ -112,3 +112,11 @@ see the file [3rd-party-licenses.txt](3rd-party-licenses.txt).
 ## Known Issues/Limitations
 
 There are no known limitations.
+
+## ignore
+
+micro_ros_dev
+micro_ros_src
+esp32_toolchain.cmake
+*.a
+include
