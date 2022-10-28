@@ -1,0 +1,11 @@
+CMake Warning at /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  CMakeLists.txt:27 (find_package)
+
+
+In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rmw_microxrcedds/rmw_microxrcedds_c/src/rmw_init.c:15:
+/home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/time.h:22:2: warning: #include_next is a GCC extension
+ #include_next <time.h>
+  ^~~~~~~~~~~~

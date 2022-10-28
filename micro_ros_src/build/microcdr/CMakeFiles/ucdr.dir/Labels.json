@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/CMakeFiles/ucdr"
+		},
+		{
+			"file" : "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/CMakeFiles/ucdr.rule"
+		},
+		{
+			"file" : "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/CMakeFiles/ucdr-complete.rule"
+		},
+		{
+			"file" : "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule"
+		},
+		{
+			"file" : "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule"
+		},
+		{
+			"file" : "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule"
+		},
+		{
+			"file" : "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule"
+		},
+		{
+			"file" : "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule"
+		},
+		{
+			"file" : "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule"
+		},
+		{
+			"file" : "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ucdr"
+		],
+		"name" : "ucdr"
+	}
+}

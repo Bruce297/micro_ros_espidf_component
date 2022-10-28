@@ -1,0 +1,46 @@
+[0.922s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/src/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint:${AMENT_PREFIX_PATH} PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /home/xu/.espressif/python_env/idf4.4_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build install --prefix /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8 --record /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/install.log --single-version-externally-managed
+[1.132s] running egg_info
+[1.133s] creating ../../../build/ament_flake8/ament_flake8.egg-info
+[1.141s] writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[1.141s] writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[1.141s] writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[1.141s] writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[1.141s] writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[1.141s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[1.157s] reading manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[1.158s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[1.159s] running build
+[1.159s] running build_py
+[1.159s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build
+[1.160s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib
+[1.160s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8
+[1.160s] copying ament_flake8/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8
+[1.160s] copying ament_flake8/main.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8
+[1.160s] copying ament_flake8/pytest_marker.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8
+[1.161s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/configuration
+[1.161s] copying ament_flake8/configuration/ament_flake8.ini -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/configuration
+[1.161s] running install
+[1.161s] /home/xu/.espressif/python_env/idf4.4_py3.10_env/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.161s]   warnings.warn(
+[1.165s] running install_lib
+[1.173s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[1.174s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[1.174s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/configuration
+[1.174s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/configuration
+[1.174s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/main.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[1.174s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[1.174s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/__init__.py to __init__.cpython-310.pyc
+[1.174s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/main.py to main.cpython-310.pyc
+[1.175s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-310.pyc
+[1.176s] running install_data
+[1.184s] copying package.xml -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/share/ament_flake8
+[1.185s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/share/ament_index
+[1.185s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/share/ament_index/resource_index
+[1.185s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/share/ament_index/resource_index/packages
+[1.185s] copying resource/ament_flake8 -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/share/ament_index/resource_index/packages
+[1.185s] running install_egg_info
+[1.193s] Copying ../../../build/ament_flake8/ament_flake8.egg-info to /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages/ament_flake8-0.12.4-py3.10.egg-info
+[1.193s] running install_scripts
+[1.246s] Installing ament_flake8 script to /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/bin
+[1.246s] writing list of installed files to '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/install.log'
+[1.368s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/src/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint:${AMENT_PREFIX_PATH} PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /home/xu/.espressif/python_env/idf4.4_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/build install --prefix /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8 --record /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_flake8/install.log --single-version-externally-managed

@@ -1,0 +1,17 @@
+CMake Warning at /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/action_msgs/cmake/action_msgsConfig.cmake:41 (include)
+  CMakeLists.txt:7 (find_package)
+
+
+In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl/rcl_action/src/rcl_action/graph.c:20:
+/home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/assert.h:24:2: warning: #include_next is a GCC extension
+ #include_next <assert.h>
+  ^~~~~~~~~~~~

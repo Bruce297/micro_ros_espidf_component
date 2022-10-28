@@ -1,0 +1,8 @@
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl

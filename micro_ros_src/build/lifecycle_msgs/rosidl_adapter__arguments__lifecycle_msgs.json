@@ -1,0 +1,13 @@
+{
+  "package_name": "lifecycle_msgs",
+  "non_idl_tuples": [
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/State.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/Transition.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/TransitionDescription.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:msg/TransitionEvent.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/ChangeState.srv",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/GetAvailableStates.srv",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/GetAvailableTransitions.srv",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/lifecycle_msgs:srv/GetState.srv"
+  ]
+}

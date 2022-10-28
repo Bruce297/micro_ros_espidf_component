@@ -1,0 +1,33 @@
+{
+  "package_name": "sensor_msgs",
+  "non_idl_tuples": [
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/BatteryState.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/CameraInfo.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/ChannelFloat32.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/CompressedImage.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/FluidPressure.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/Illuminance.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/Image.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/Imu.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/JointState.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/Joy.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/JoyFeedback.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/JoyFeedbackArray.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/LaserEcho.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/LaserScan.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/MagneticField.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/MultiDOFJointState.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/MultiEchoLaserScan.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/NavSatFix.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/NavSatStatus.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/PointCloud.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/PointCloud2.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/PointField.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/Range.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/RegionOfInterest.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/RelativeHumidity.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/Temperature.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:msg/TimeReference.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/sensor_msgs:srv/SetCameraInfo.srv"
+  ]
+}

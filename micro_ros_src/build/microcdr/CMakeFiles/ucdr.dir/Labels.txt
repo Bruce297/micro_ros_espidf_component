@@ -1,0 +1,13 @@
+# Target labels
+ ucdr
+# Source files and their labels
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/CMakeFiles/ucdr
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/CMakeFiles/ucdr.rule
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/CMakeFiles/ucdr-complete.rule
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule

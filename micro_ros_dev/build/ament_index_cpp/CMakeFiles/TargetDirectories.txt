@@ -1,0 +1,10 @@
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp/CMakeFiles/uninstall.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp/CMakeFiles/ament_index_cpp_uninstall.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp/CMakeFiles/ament_index_cpp.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp/CMakeFiles/test.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp/CMakeFiles/edit_cache.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp/CMakeFiles/rebuild_cache.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp/CMakeFiles/list_install_components.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp/CMakeFiles/install.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp/CMakeFiles/install/local.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_index_cpp/CMakeFiles/install/strip.dir

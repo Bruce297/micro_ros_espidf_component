@@ -1,0 +1,10 @@
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcl_action/CMakeFiles/uninstall.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcl_action/CMakeFiles/rcl_action_uninstall.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcl_action/CMakeFiles/rcl_action.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcl_action/CMakeFiles/test.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcl_action/CMakeFiles/edit_cache.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcl_action/CMakeFiles/rebuild_cache.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcl_action/CMakeFiles/list_install_components.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcl_action/CMakeFiles/install.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcl_action/CMakeFiles/install/local.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcl_action/CMakeFiles/install/strip.dir

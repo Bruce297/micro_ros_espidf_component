@@ -1,0 +1,13 @@
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/ImageMarker.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarker.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerControl.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerFeedback.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerInit.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerPose.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerUpdate.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/Marker.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MarkerArray.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MenuEntry.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MeshFile.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/UVCoordinate.idl
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/visualization_msgs/rosidl_adapter/visualization_msgs:srv/GetInteractiveMarkers.idl

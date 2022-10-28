@@ -1,0 +1,46 @@
+[0.977s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/src/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /home/xu/.espressif/python_env/idf4.4_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build install --prefix /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy --record /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/install.log --single-version-externally-managed
+[1.186s] running egg_info
+[1.186s] creating ../../../build/ament_mypy/ament_mypy.egg-info
+[1.194s] writing ../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[1.194s] writing dependency_links to ../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[1.194s] writing entry points to ../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[1.194s] writing requirements to ../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[1.194s] writing top-level names to ../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[1.194s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.209s] reading manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.210s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.210s] running build
+[1.210s] running build_py
+[1.211s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build
+[1.211s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib
+[1.211s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib/ament_mypy
+[1.211s] copying ament_mypy/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib/ament_mypy
+[1.211s] copying ament_mypy/main.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib/ament_mypy
+[1.211s] copying ament_mypy/pytest_marker.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib/ament_mypy
+[1.211s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib/ament_mypy/configuration
+[1.211s] copying ament_mypy/configuration/ament_mypy.ini -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib/ament_mypy/configuration
+[1.211s] running install
+[1.211s] /home/xu/.espressif/python_env/idf4.4_py3.10_env/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.211s]   warnings.warn(
+[1.215s] running install_lib
+[1.223s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[1.223s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib/ament_mypy/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[1.223s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/configuration
+[1.224s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib/ament_mypy/configuration/ament_mypy.ini -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/configuration
+[1.224s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib/ament_mypy/main.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[1.224s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build/lib/ament_mypy/pytest_marker.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[1.224s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/__init__.py to __init__.cpython-310.pyc
+[1.224s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/main.py to main.cpython-310.pyc
+[1.225s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/pytest_marker.py to pytest_marker.cpython-310.pyc
+[1.225s] running install_data
+[1.232s] copying package.xml -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/share/ament_mypy
+[1.232s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/share/ament_index
+[1.233s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/share/ament_index/resource_index
+[1.233s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/share/ament_index/resource_index/packages
+[1.233s] copying resource/ament_mypy -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/share/ament_index/resource_index/packages
+[1.233s] running install_egg_info
+[1.241s] Copying ../../../build/ament_mypy/ament_mypy.egg-info to /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages/ament_mypy-0.12.4-py3.10.egg-info
+[1.241s] running install_scripts
+[1.293s] Installing ament_mypy script to /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/bin
+[1.293s] writing list of installed files to '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/install.log'
+[1.414s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/src/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy/lib/python3.10/site-packages:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8/lib/python3.10/site-packages:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /home/xu/.espressif/python_env/idf4.4_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/build install --prefix /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy --record /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_mypy/install.log --single-version-externally-managed

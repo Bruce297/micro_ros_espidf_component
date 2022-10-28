@@ -1,0 +1,15 @@
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/package_run_dependencies/common_interfaces
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/parent_prefix_path/common_interfaces
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/environment/ament_prefix_path.sh
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/environment/ament_prefix_path.dsv
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/environment/path.sh
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/environment/path.dsv
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/local_setup.bash
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/local_setup.sh
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/local_setup.zsh
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/local_setup.dsv
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/package.dsv
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/packages/common_interfaces
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/cmake/common_interfacesConfig.cmake
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/cmake/common_interfacesConfig-version.cmake
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/common_interfaces/package.xml

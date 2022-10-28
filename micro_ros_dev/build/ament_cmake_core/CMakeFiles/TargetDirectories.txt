@@ -1,0 +1,7 @@
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_core/CMakeFiles/uninstall.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_core/CMakeFiles/ament_cmake_core_uninstall.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_core/CMakeFiles/edit_cache.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_core/CMakeFiles/rebuild_cache.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_core/CMakeFiles/list_install_components.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_core/CMakeFiles/install.dir
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_cmake_core/CMakeFiles/install/local.dir

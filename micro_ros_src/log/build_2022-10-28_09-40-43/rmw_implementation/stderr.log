@@ -1,0 +1,20 @@
+CMake Warning (dev) at /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/cmake/export_ament_index_cppExport.cmake:54 (add_library):
+  ADD_LIBRARY called with SHARED option but the target platform does not
+  support dynamic linking.  Building a STATIC library instead.  This may lead
+  to problems.
+Call Stack (most recent call first):
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/cmake/ament_cmake_export_targets-extras.cmake:9 (include)
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_index_cpp/share/ament_index_cpp/cmake/ament_index_cppConfig.cmake:41 (include)
+  CMakeLists.txt:15 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rmw_microxrcedds/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rmw_microxrcedds/cmake/rmw_microxrceddsConfig.cmake:41 (include)
+  /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rmw_implementation_cmake/cmake/get_default_rmw_implementation.cmake:64 (find_package)
+  CMakeLists.txt:23 (get_default_rmw_implementation)
+
+

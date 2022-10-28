@@ -1,0 +1,8 @@
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/libmicrocdr.a
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/microcdr.h
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/visibility.h
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/config.h
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrTargets.cmake
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrTargets-release.cmake
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrConfig.cmake
+/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrConfigVersion.cmake

@@ -1,0 +1,79 @@
+[1.459s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_cli': PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /home/xu/.espressif/python_env/idf4.4_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build install --prefix /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install --record /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/install.log --single-version-externally-managed
+[1.726s] running egg_info
+[1.726s] creating ../../../build/rosidl_cli/rosidl_cli.egg-info
+[1.726s] writing ../../../build/rosidl_cli/rosidl_cli.egg-info/PKG-INFO
+[1.726s] writing dependency_links to ../../../build/rosidl_cli/rosidl_cli.egg-info/dependency_links.txt
+[1.726s] writing entry points to ../../../build/rosidl_cli/rosidl_cli.egg-info/entry_points.txt
+[1.726s] writing requirements to ../../../build/rosidl_cli/rosidl_cli.egg-info/requires.txt
+[1.726s] writing top-level names to ../../../build/rosidl_cli/rosidl_cli.egg-info/top_level.txt
+[1.726s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.726s] reading manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.726s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[1.726s] running build
+[1.727s] running build_py
+[1.727s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build
+[1.727s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib
+[1.727s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.727s] copying rosidl_cli/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.727s] copying rosidl_cli/cli.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.727s] copying rosidl_cli/extensions.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.727s] copying rosidl_cli/entry_points.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.727s] copying rosidl_cli/common.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli
+[1.727s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.727s] copying rosidl_cli/command/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.727s] copying rosidl_cli/command/helpers.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command
+[1.727s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.727s] copying rosidl_cli/command/translate/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.728s] copying rosidl_cli/command/translate/api.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.728s] copying rosidl_cli/command/translate/extensions.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[1.728s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.728s] copying rosidl_cli/command/generate/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.728s] copying rosidl_cli/command/generate/api.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.728s] copying rosidl_cli/command/generate/extensions.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[1.728s] running install
+[1.741s] /home/xu/.espressif/python_env/idf4.4_py3.10_env/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.742s]   warnings.warn(
+[1.742s] running install_lib
+[1.742s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.742s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command
+[1.743s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.743s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.743s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate/api.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.743s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/translate/extensions.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[1.744s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command
+[1.744s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.744s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.744s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate/api.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.744s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/generate/extensions.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[1.744s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/command/helpers.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command
+[1.744s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.744s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/cli.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.745s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/extensions.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.745s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/entry_points.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.745s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build/lib/rosidl_cli/common.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate/__init__.py to __init__.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate/api.py to api.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/translate/extensions.py to extensions.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/__init__.py to __init__.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate/__init__.py to __init__.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate/api.py to api.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/generate/extensions.py to extensions.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/command/helpers.py to helpers.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/__init__.py to __init__.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/cli.py to cli.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/extensions.py to extensions.cpython-310.pyc
+[1.745s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/entry_points.py to entry_points.cpython-310.pyc
+[1.746s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli/common.py to common.cpython-310.pyc
+[1.746s] running install_data
+[1.746s] copying resource/rosidl_cli -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/packages
+[1.746s] copying package.xml -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_cli
+[1.746s] copying resource/package.dsv -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_cli
+[1.746s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_cli/environment
+[1.746s] copying completion/rosidl-argcomplete.bash -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_cli/environment
+[1.746s] copying completion/rosidl-argcomplete.zsh -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rosidl_cli/environment
+[1.746s] running install_egg_info
+[1.747s] Copying ../../../build/rosidl_cli/rosidl_cli.egg-info to /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rosidl_cli-3.1.3-py3.10.egg-info
+[1.748s] running install_scripts
+[1.862s] Installing rosidl script to /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/bin
+[1.868s] writing list of installed files to '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/install.log'
+[1.870s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rosidl/rosidl_cli' returned '0': PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /home/xu/.espressif/python_env/idf4.4_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/build install --prefix /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install --record /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rosidl_cli/install.log --single-version-externally-managed

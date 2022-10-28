@@ -1,0 +1,68 @@
+[0.598s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr': X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/micro-CDR --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/xu/esp/test/micro_ros_espidf_component/esp32_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=OFF -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install
+[0.868s] Not searching for unused variables given on the command line.
+[0.868s] -- The C compiler identification is GNU 8.4.0
+[0.868s] -- Detecting C compiler ABI info
+[0.868s] -- Detecting C compiler ABI info - done
+[0.868s] -- Check for working C compiler: /home/xu/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+[0.868s] -- Detecting C compile features
+[0.869s] -- Detecting C compile features - done
+[0.869s] -- The CXX compiler identification is GNU 8.4.0
+[0.869s] -- Detecting CXX compiler ABI info
+[0.869s] -- Detecting CXX compiler ABI info - done
+[0.869s] -- Check for working CXX compiler: /home/xu/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+[0.869s] -- Detecting CXX compile features
+[0.869s] -- Detecting CXX compile features - done
+[0.869s] -- Configuring done
+[0.869s] -- Generating done
+[0.869s] -- Build files have been written to: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr
+[0.871s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr' returned '0': X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/micro-CDR --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/xu/esp/test/micro_ros_espidf_component/esp32_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=OFF -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install
+[0.872s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr': X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --build /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr
+[0.881s] gmake[1]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[0.889s] gmake[2]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[0.893s] gmake[3]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[0.896s] gmake[3]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[0.896s] gmake[3]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[0.910s] [ 12%] Creating directories for 'ucdr'
+[0.989s] [ 25%] No download step for 'ucdr'
+[0.990s] [ 37%] No update step for 'ucdr'
+[1.021s] [ 50%] No patch step for 'ucdr'
+[1.028s] [ 62%] Performing configure step for 'ucdr'
+[1.028s] loading initial cache file /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[1.028s] -- Configuring done
+[1.028s] -- Generating done
+[1.028s] -- Build files have been written to: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr
+[1.065s] [ 75%] Performing build step for 'ucdr'
+[1.074s] gmake[4]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.074s] gmake[5]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.074s] gmake[6]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.074s] gmake[6]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.074s] gmake[6]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.074s] [ 16%] Building C object CMakeFiles/microcdr.dir/src/c/common.c.obj
+[1.074s] [ 50%] Building C object CMakeFiles/microcdr.dir/src/c/types/string.c.obj
+[1.074s] [ 50%] Building C object CMakeFiles/microcdr.dir/src/c/types/basic.c.obj
+[1.074s] [ 66%] Building C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj
+[1.074s] [ 83%] Building C object CMakeFiles/microcdr.dir/src/c/types/array.c.obj
+[1.537s] [100%] Linking C static library libmicrocdr.a
+[1.549s] gmake[6]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.553s] [100%] Built target microcdr
+[1.554s] gmake[5]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.558s] gmake[4]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.567s] No install step for 'ucdr'
+[1.580s] Completed 'ucdr'
+[1.593s] gmake[3]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.598s] Built target ucdr
+[1.598s] gmake[2]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.603s] gmake[1]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr'
+[1.604s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr' returned '0': X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --build /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr
+[1.620s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr': X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --install /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr
+[1.625s] -- Install configuration: "Release"
+[1.625s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/libmicrocdr.a
+[1.625s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/ucdr
+[1.625s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/microcdr.h
+[1.625s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/visibility.h
+[1.625s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/ucdr/config.h
+[1.625s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrTargets.cmake
+[1.626s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrTargets-release.cmake
+[1.626s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrConfig.cmake
+[1.626s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microcdr/cmake/microcdrConfigVersion.cmake
+[1.634s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr' returned '0': X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --install /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microcdr

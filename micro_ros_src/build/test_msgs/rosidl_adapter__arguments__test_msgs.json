@@ -1,0 +1,23 @@
+{
+  "package_name": "test_msgs",
+  "non_idl_tuples": [
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/Arrays.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/BasicTypes.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/BoundedPlainSequences.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/BoundedSequences.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/Constants.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/Defaults.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/Empty.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/MultiNested.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/Nested.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/Strings.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/UnboundedSequences.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:msg/WStrings.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:srv/Arrays.srv",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:srv/BasicTypes.srv",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:srv/Empty.srv",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/test_interface_files:action/Fibonacci.action",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/test_msgs:msg/Builtins.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces/test_msgs:action/NestedMessage.action"
+  ]
+}

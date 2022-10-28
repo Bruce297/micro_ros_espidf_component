@@ -1,0 +1,261 @@
+[0.401s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/domain_coordinator:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_package:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/xu/esp/test/micro_ros_espidf_component/esp32_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=OFF -DBUILD_SHARED=OFF -DENABLE_TESTING=OFF -DRCUTILS_NO_FILESYSTEM=ON -DRCUTILS_NO_THREAD_SUPPORT=ON -DRCUTILS_NO_64_ATOMIC=ON -DRCUTILS_AVOID_DYNAMIC_ALLOCATION=ON -DCMAKE_INSTALL_PREFIX=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install
+[0.919s] Not searching for unused variables given on the command line.
+[0.919s] -- The C compiler identification is GNU 8.4.0
+[0.919s] -- The CXX compiler identification is GNU 8.4.0
+[0.920s] -- Detecting C compiler ABI info
+[0.920s] -- Detecting C compiler ABI info - done
+[0.920s] -- Check for working C compiler: /home/xu/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+[0.920s] -- Detecting C compile features
+[0.920s] -- Detecting C compile features - done
+[0.920s] -- Detecting CXX compiler ABI info
+[0.920s] -- Detecting CXX compiler ABI info - done
+[0.920s] -- Check for working CXX compiler: /home/xu/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+[0.920s] -- Detecting CXX compile features
+[0.920s] -- Detecting CXX compile features - done
+[0.920s] -- Found ament_cmake_python: 1.3.2 (/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_python/share/ament_cmake_python/cmake)
+[0.921s] -- Found ament_cmake_ros: 0.10.0 (/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[0.921s] -- Found Python3: /home/xu/.espressif/python_env/idf4.4_py3.10_env/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.128s] -- Configuring done
+[1.128s] -- Generating done
+[1.128s] -- Build files have been written to: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils
+[1.150s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/domain_coordinator:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_package:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/xu/esp/test/micro_ros_espidf_component/esp32_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=OFF -DBUILD_SHARED=OFF -DENABLE_TESTING=OFF -DRCUTILS_NO_FILESYSTEM=ON -DRCUTILS_NO_THREAD_SUPPORT=ON -DRCUTILS_NO_64_ATOMIC=ON -DRCUTILS_AVOID_DYNAMIC_ALLOCATION=ON -DCMAKE_INSTALL_PREFIX=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install
+[1.151s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/domain_coordinator:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_package:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --build /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils
+[1.157s] gmake[1]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.170s] gmake[2]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.171s] gmake[3]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.171s] gmake[3]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.176s] [  3%] Expanding logging_macros.h.em
+[1.177s] gmake[3]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.178s] gmake[3]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.183s] gmake[3]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.188s] [  3%] Built target ament_cmake_python_copy_rcutils
+[1.191s] gmake[3]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.196s] gmake[3]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.196s] gmake[3]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.284s] gmake[3]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.284s] gmake[3]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.284s] [ 20%] Building C object CMakeFiles/rcutils.dir/src/filesystem.c.obj
+[1.284s] [ 20%] Building C object CMakeFiles/rcutils.dir/src/env.c.obj
+[1.284s] [ 20%] Building C object CMakeFiles/rcutils.dir/src/array_list.c.obj
+[1.285s] [ 20%] Building C object CMakeFiles/rcutils.dir/src/cmdline_parser.c.obj
+[1.285s] [ 20%] Building C object CMakeFiles/rcutils.dir/src/char_array.c.obj
+[1.285s] [ 27%] Building C object CMakeFiles/rcutils.dir/src/find.c.obj
+[1.285s] [ 27%] Building C object CMakeFiles/rcutils.dir/src/allocator.c.obj
+[1.285s] [ 31%] Building C object CMakeFiles/rcutils.dir/src/error_handling.c.obj
+[1.285s] [ 34%] Building C object CMakeFiles/rcutils.dir/src/hash_map.c.obj
+[1.285s] [ 37%] Building C object CMakeFiles/rcutils.dir/src/logging.c.obj
+[1.298s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/env.c:20:
+[1.308s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/errno.h:10:2: warning: #include_next is a GCC extension
+[1.312s]  #include_next "errno.h"
+[1.312s]   ^~~~~~~~~~~~
+[1.312s] [ 48%] Building C object CMakeFiles/rcutils.dir/src/repl_str.c.obj
+[1.312s] [ 48%] Building C object CMakeFiles/rcutils.dir/src/format_string.c.obj
+[1.312s] [ 48%] Building C object CMakeFiles/rcutils.dir/src/qsort.c.obj
+[1.312s] [ 51%] Building C object CMakeFiles/rcutils.dir/src/process.c.obj
+[1.392s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/filesystem.c:21:
+[1.393s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/errno.h:10:2: warning: #include_next is a GCC extension
+[1.393s]  #include_next "errno.h"
+[1.393s]   ^~~~~~~~~~~~
+[1.393s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:28,
+[1.393s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/char_array.c:16:
+[1.393s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/assert.h:24:2: warning: #include_next is a GCC extension
+[1.393s]  #include_next <assert.h>
+[1.393s]   ^~~~~~~~~~~~
+[1.393s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:28,
+[1.393s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/error_handling.c:22:
+[1.393s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/assert.h:24:2: warning: #include_next is a GCC extension
+[1.393s]  #include_next <assert.h>
+[1.394s]   ^~~~~~~~~~~~
+[1.394s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/error_handling.c:35:
+[1.394s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/./error_handling_helpers.h: In function '__rcutils_convert_uint64_t_into_c_str':
+[1.397s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:109:48: warning: unused parameter 'number' [-Wunused-parameter]
+[1.397s]  __rcutils_convert_uint64_t_into_c_str(uint64_t number, char * buffer, size_t buffer_size)
+[1.398s]                                        ~~~~~~~~~^~~~~~
+[1.398s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:109:63: warning: unused parameter 'buffer' [-Wunused-parameter]
+[1.398s]  __rcutils_convert_uint64_t_into_c_str(uint64_t number, char * buffer, size_t buffer_size)
+[1.398s]                                                         ~~~~~~~^~~~~~
+[1.398s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:109:78: warning: unused parameter 'buffer_size' [-Wunused-parameter]
+[1.398s]  __rcutils_convert_uint64_t_into_c_str(uint64_t number, char * buffer, size_t buffer_size)
+[1.398s]                                                                        ~~~~~~~^~~~~~~~~~~
+[1.398s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/./error_handling_helpers.h: In function '__rcutils_format_error_string':
+[1.398s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:142:28: warning: unused parameter 'error_string' [-Wunused-parameter]
+[1.398s]    rcutils_error_string_t * error_string,
+[1.398s]    ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+[1.398s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:143:33: warning: unused parameter 'error_state' [-Wunused-parameter]
+[1.398s]    const rcutils_error_state_t * error_state)
+[1.399s]    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+[1.399s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/error_handling.c: In function 'rcutils_get_error_string':
+[1.399s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/error_handling.c:240:38: warning: initializer-string for array of chars is too long
+[1.399s]      return (rcutils_error_string_t) {"error not set"};  // NOLINT(readability/braces)
+[1.399s]                                       ^~~~~~~~~~~~~~~
+[1.399s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/error_handling.c:240:38: note: (near initialization for '(anonymous).str')
+[1.399s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/error_handling.c:35:
+[1.399s] At top level:
+[1.399s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:109:1: warning: '__rcutils_convert_uint64_t_into_c_str' defined but not used [-Wunused-function]
+[1.399s]  __rcutils_convert_uint64_t_into_c_str(uint64_t number, char * buffer, size_t buffer_size)
+[1.399s]  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.399s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/./error_handling_helpers.h:91:1: warning: '__rcutils_reverse_str' defined but not used [-Wunused-function]
+[1.399s]  __rcutils_reverse_str(char * string_in, size_t string_len)
+[1.400s]  ^~~~~~~~~~~~~~~~~~~~~
+[1.400s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/logging.c:21:
+[1.400s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/errno.h:10:2: warning: #include_next is a GCC extension
+[1.400s]  #include_next "errno.h"
+[1.400s]   ^~~~~~~~~~~~
+[1.400s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/process.c:20:
+[1.400s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/errno.h:10:2: warning: #include_next is a GCC extension
+[1.400s]  #include_next "errno.h"
+[1.400s]   ^~~~~~~~~~~~
+[1.400s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/logging.c: In function 'rcutils_get_env_var_zero_or_one':
+[1.400s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/logging.c:130:35: warning: unused parameter 'zero_semantic' [-Wunused-parameter]
+[1.400s]    const char * name, const char * zero_semantic,
+[1.400s]                       ~~~~~~~~~~~~~^~~~~~~~~~~~~
+[1.401s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/logging.c:131:16: warning: unused parameter 'one_semantic' [-Wunused-parameter]
+[1.401s]    const char * one_semantic)
+[1.401s]    ~~~~~~~~~~~~~^~~~~~~~~~~~
+[1.401s] In function 'rcutils_char_array_strncat',
+[1.401s]     inlined from 'rcutils_char_array_strcat' at /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/char_array.c:239:10:
+[1.401s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/char_array.c:224:3: warning: 'strncat' output truncated before terminating nul copying as many bytes from a string as its length [-Wstringop-truncation]
+[1.401s]    strncat(char_array->buffer, src, n);
+[1.401s]    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.401s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/char_array.c: In function 'rcutils_char_array_strcat':
+[1.401s] /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/char_array.c:239:10: note: length computed here
+[1.401s]    return rcutils_char_array_strncat(char_array, src, strlen(src));
+[1.401s]           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.401s] [ 58%] Building C object CMakeFiles/rcutils.dir/src/shared_library.c.obj
+[1.402s] [ 58%] Building C object CMakeFiles/rcutils.dir/src/snprintf.c.obj
+[1.402s] [ 65%] Building C object CMakeFiles/rcutils.dir/src/strcasecmp.c.obj
+[1.402s] [ 65%] Building C object CMakeFiles/rcutils.dir/src/split.c.obj
+[1.402s] [ 68%] Building C object CMakeFiles/rcutils.dir/src/strdup.c.obj
+[1.443s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/snprintf.c:22:
+[1.444s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/errno.h:10:2: warning: #include_next is a GCC extension
+[1.444s]  #include_next "errno.h"
+[1.445s]   ^~~~~~~~~~~~
+[1.445s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/strcasecmp.c:20:
+[1.445s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/errno.h:10:2: warning: #include_next is a GCC extension
+[1.445s]  #include_next "errno.h"
+[1.445s]   ^~~~~~~~~~~~
+[1.445s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/strerror.c:20:
+[1.445s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/errno.h:10:2: warning: #include_next is a GCC extension
+[1.445s]  #include_next "errno.h"
+[1.445s]   ^~~~~~~~~~~~
+[1.446s] [ 72%] Building C object CMakeFiles/rcutils.dir/src/strerror.c.obj
+[1.446s] [ 75%] Building C object CMakeFiles/rcutils.dir/src/string_array.c.obj
+[1.446s] [ 79%] Building C object CMakeFiles/rcutils.dir/src/testing/fault_injection.c.obj
+[1.446s] [ 82%] Building C object CMakeFiles/rcutils.dir/src/time_unix.c.obj
+[1.446s] [ 86%] Building C object CMakeFiles/rcutils.dir/src/string_map.c.obj
+[1.462s] [ 89%] Building C object CMakeFiles/rcutils.dir/src/time.c.obj
+[1.470s] [ 93%] Building C object CMakeFiles/rcutils.dir/src/atomic_64bits.c.obj
+[1.470s] [ 96%] Building C object CMakeFiles/rcutils.dir/src/uint8_array.c.obj
+[1.502s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/include/rcutils/error_handling.h:28,
+[1.502s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/uint8_array.c:15:
+[1.502s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/assert.h:24:2: warning: #include_next is a GCC extension
+[1.502s]  #include_next <assert.h>
+[1.503s]   ^~~~~~~~~~~~
+[1.503s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/rcutils/src/time_unix.c:35:
+[1.503s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/time.h:22:2: warning: #include_next is a GCC extension
+[1.503s]  #include_next <time.h>
+[1.503s]   ^~~~~~~~~~~~
+[1.503s] running egg_info
+[1.503s] creating rcutils.egg-info
+[1.503s] writing rcutils.egg-info/PKG-INFO
+[1.503s] writing dependency_links to rcutils.egg-info/dependency_links.txt
+[1.503s] writing top-level names to rcutils.egg-info/top_level.txt
+[1.503s] writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[1.525s] reading manifest file 'rcutils.egg-info/SOURCES.txt'
+[1.526s] writing manifest file 'rcutils.egg-info/SOURCES.txt'
+[1.542s] [100%] Linking C static library librcutils.a
+[1.557s] gmake[3]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.561s] gmake[3]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.566s] [100%] Built target ament_cmake_python_build_rcutils_egg
+[1.594s] [100%] Built target rcutils
+[1.595s] gmake[2]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.600s] gmake[1]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils'
+[1.601s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/domain_coordinator:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_package:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --build /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils
+[1.640s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/domain_coordinator:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_package:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --install /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils
+[1.645s] -- Install configuration: "Release"
+[1.645s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/environment/pythonpath.sh
+[1.645s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/environment/pythonpath.dsv
+[1.645s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils-5.1.1-py3.10.egg-info
+[1.645s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils-5.1.1-py3.10.egg-info/SOURCES.txt
+[1.645s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils-5.1.1-py3.10.egg-info/PKG-INFO
+[1.645s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils-5.1.1-py3.10.egg-info/top_level.txt
+[1.646s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils-5.1.1-py3.10.egg-info/dependency_links.txt
+[1.646s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils
+[1.646s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils/__init__.py
+[1.646s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils/logging.py
+[1.674s] Listing '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils'...
+[1.674s] Compiling '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils/__init__.py'...
+[1.674s] Compiling '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages/rcutils/logging.py'...
+[1.678s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/librcutils.a
+[1.679s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/environment/library_path.sh
+[1.679s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/environment/library_path.dsv
+[1.679s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/package_run_dependencies/rcutils
+[1.679s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/parent_prefix_path/rcutils
+[1.679s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/environment/ament_prefix_path.sh
+[1.679s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/environment/ament_prefix_path.dsv
+[1.679s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/environment/path.sh
+[1.680s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/environment/path.dsv
+[1.686s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/local_setup.bash
+[1.686s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/local_setup.sh
+[1.686s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/local_setup.zsh
+[1.686s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/local_setup.dsv
+[1.686s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/package.dsv
+[1.687s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/ament_index/resource_index/packages/rcutils
+[1.687s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/rcutilsExport.cmake
+[1.687s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/rcutilsExport-release.cmake
+[1.687s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.716s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake
+[1.722s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+[1.722s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.722s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/rcutilsConfig.cmake
+[1.723s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/cmake/rcutilsConfig-version.cmake
+[1.723s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/rcutils/package.xml
+[1.723s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils
+[1.723s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils
+[1.730s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/testing
+[1.730s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/testing/fault_injection.h
+[1.730s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/format_string.h
+[1.730s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/shared_library.h
+[1.730s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/isalnum_no_locale.h
+[1.730s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/strdup.h
+[1.730s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/configuration_flags.h.in
+[1.730s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/strcasecmp.h
+[1.730s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/find.h
+[1.730s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/allocator.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/logging.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/types.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper/gcc
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper/gcc/stdatomic.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper/win32
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper/win32/stdatomic.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/security_directory.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/cmdline_parser.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/env.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/visibility_control_macros.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/process.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/snprintf.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/qsort.h
+[1.731s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/time.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/repl_str.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/types
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/types/string_array.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/types/uint8_array.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/types/hash_map.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/types/array_list.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/types/rcutils_ret.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/types/char_array.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/types/string_map.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/macros.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/strerror.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/filesystem.h
+[1.732s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/get_env.h
+[1.737s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/error_handling.h
+[1.738s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/split.h
+[1.738s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/visibility_control.h
+[1.738s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/stdatomic_helper.h
+[1.738s] -- Up-to-date: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils
+[1.738s] -- Up-to-date: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils
+[1.738s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/logging_macros.h
+[1.738s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/rcutils/rcutils/configuration_flags.h
+[1.740s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/domain_coordinator:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_xmllint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_uncrustify:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pyflakes:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pep257:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pclint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_package:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_mypy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint_cmake:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_flake8:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_copyright:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_lint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_index_python:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cpplint:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_cppcheck:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_tidy:/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_clang_format X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --install /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/rcutils

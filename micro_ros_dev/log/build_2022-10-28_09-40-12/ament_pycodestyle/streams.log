@@ -1,0 +1,43 @@
+[1.231s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/src/ament_lint/ament_pycodestyle': PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /home/xu/.espressif/python_env/idf4.4_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/ament_pycodestyle build --build-base /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build install --prefix /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle --record /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/install.log --single-version-externally-managed
+[1.432s] running egg_info
+[1.432s] creating ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info
+[1.439s] writing ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/PKG-INFO
+[1.440s] writing dependency_links to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/dependency_links.txt
+[1.440s] writing entry points to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/entry_points.txt
+[1.440s] writing requirements to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/requires.txt
+[1.440s] writing top-level names to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/top_level.txt
+[1.441s] writing manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[1.453s] reading manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[1.454s] writing manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[1.454s] running build
+[1.454s] running build_py
+[1.454s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build
+[1.454s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build/lib
+[1.454s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[1.454s] copying ament_pycodestyle/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[1.455s] copying ament_pycodestyle/main.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[1.455s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[1.455s] copying ament_pycodestyle/configuration/ament_pycodestyle.ini -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[1.456s] running install
+[1.456s] /home/xu/.espressif/python_env/idf4.4_py3.10_env/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.456s]   warnings.warn(
+[1.459s] running install_lib
+[1.466s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[1.466s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle/__init__.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[1.466s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/configuration
+[1.466s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration/ament_pycodestyle.ini -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/configuration
+[1.466s] copying /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build/lib/ament_pycodestyle/main.py -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[1.466s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/__init__.py to __init__.cpython-310.pyc
+[1.466s] byte-compiling /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/main.py to main.cpython-310.pyc
+[1.467s] running install_data
+[1.474s] copying package.xml -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/share/ament_pycodestyle
+[1.474s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/share/ament_index
+[1.474s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/share/ament_index/resource_index
+[1.474s] creating /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/share/ament_index/resource_index/packages
+[1.474s] copying resource/ament_pycodestyle -> /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/share/ament_index/resource_index/packages
+[1.474s] running install_egg_info
+[1.481s] Copying ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info to /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle-0.12.4-py3.10.egg-info
+[1.482s] running install_scripts
+[1.526s] Installing ament_pycodestyle script to /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/bin
+[1.526s] writing list of installed files to '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/install.log'
+[1.635s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/src/ament_lint/ament_pycodestyle' returned '0': PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /home/xu/.espressif/python_env/idf4.4_py3.10_env/bin/python setup.py egg_info --egg-base ../../../build/ament_pycodestyle build --build-base /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/build install --prefix /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/install/ament_pycodestyle --record /home/xu/esp/test/micro_ros_espidf_component/micro_ros_dev/build/ament_pycodestyle/install.log --single-version-externally-managed

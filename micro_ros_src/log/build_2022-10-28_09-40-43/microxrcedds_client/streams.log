@@ -1,0 +1,704 @@
+[0.045s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/xu/esp/test/micro_ros_espidf_component/esp32_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=OFF -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DUCLIENT_PIC=OFF -DUCLIENT_PROFILE_DISCOVERY=ON -DUCLIENT_PROFILE_UDP=ON -DUCLIENT_PROFILE_CUSTOM_TRANSPORT=ON -DUCLIENT_PROFILE_SERIAL=OFF -DUCLIENT_PROFILE_TCP=OFF -DUCLIENT_MIN_HEARTBEAT_TIME_INTERVAL=1 -DCMAKE_INSTALL_PREFIX=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install
+[0.046s] Not searching for unused variables given on the command line.
+[0.066s] -- The C compiler identification is GNU 8.4.0
+[0.073s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.166s] -- Check for working C compiler: /home/xu/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+[0.166s] -- Detecting C compile features
+[0.166s] -- Detecting C compile features - done
+[0.166s] -- Configuring done
+[0.167s] -- Generating done
+[0.167s] -- Build files have been written to: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client
+[0.199s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/xu/esp/test/micro_ros_espidf_component/esp32_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=OFF -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DUCLIENT_PIC=OFF -DUCLIENT_PROFILE_DISCOVERY=ON -DUCLIENT_PROFILE_UDP=ON -DUCLIENT_PROFILE_CUSTOM_TRANSPORT=ON -DUCLIENT_PROFILE_SERIAL=OFF -DUCLIENT_PROFILE_TCP=OFF -DUCLIENT_MIN_HEARTBEAT_TIME_INTERVAL=1 -DCMAKE_INSTALL_PREFIX=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install
+[0.205s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --build /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client
+[0.358s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/util/time.c:3:
+[0.363s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/time.h:22:2: warning: #include_next is a GCC extension
+[0.364s]  #include_next <time.h>
+[0.364s]   ^~~~~~~~~~~~
+[0.364s] In file included from /home/xu/esp/v4.4/esp-idf/components/esp_hw_support/include/soc/compare_set.h:12,
+[0.364s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_hw_support/include/soc/spinlock.h:13,
+[0.364s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:42,
+[0.364s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/portable.h:51,
+[0.364s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/FreeRTOS.h:63,
+[0.364s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_system/include/esp_task.h:32,
+[0.364s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:18,
+[0.364s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.364s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.365s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.365s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.365s] /home/xu/esp/v4.4/esp-idf/components/soc/include/soc/soc_memory_types.h: In function 'esp_ptr_dma_ext_capable':
+[0.365s] /home/xu/esp/v4.4/esp-idf/components/soc/include/soc/soc_memory_types.h:34:66: warning: unused parameter 'p' [-Wunused-parameter]
+[0.365s]  inline static bool IRAM_ATTR esp_ptr_dma_ext_capable(const void *p)
+[0.370s]                                                       ~~~~~~~~~~~~^
+[0.374s] In file included from /home/xu/esp/v4.4/esp-idf/components/esp_hw_support/include/soc/compare_set.h:12,
+[0.374s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_hw_support/include/soc/spinlock.h:13,
+[0.374s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:42,
+[0.375s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/portable.h:51,
+[0.375s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/FreeRTOS.h:63,
+[0.375s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_system/include/esp_task.h:32,
+[0.375s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:18,
+[0.375s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.375s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.375s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.375s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.375s] /home/xu/esp/v4.4/esp-idf/components/soc/include/soc/soc_memory_types.h: In function 'esp_ptr_dma_ext_capable':
+[0.375s] /home/xu/esp/v4.4/esp-idf/components/soc/include/soc/soc_memory_types.h:34:66: warning: unused parameter 'p' [-Wunused-parameter]
+[0.375s]  inline static bool IRAM_ATTR esp_ptr_dma_ext_capable(const void *p)
+[0.376s]                                                       ~~~~~~~~~~~~^
+[0.376s] In file included from /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:40,
+[0.376s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/portable.h:51,
+[0.376s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/FreeRTOS.h:63,
+[0.376s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_system/include/esp_task.h:32,
+[0.376s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:18,
+[0.376s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.376s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.376s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.376s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.376s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: In function 'vPortClearInterruptMaskFromISR':
+[0.376s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:571:32: warning: conversion to 'int' from 'UBaseType_t' {aka 'unsigned int'} may change the sign of the result [-Wsign-conversion]
+[0.376s]      XTOS_RESTORE_JUST_INTLEVEL(prev_level);
+[0.376s]                                 ^~~~~~~~~~
+[0.376s] /home/xu/esp/v4.4/esp-idf/components/xtensa/include/xtensa/xtruntime.h:108:68: note: in definition of macro 'XTOS_RESTORE_JUST_INTLEVEL'
+[0.377s]  # define XTOS_RESTORE_JUST_INTLEVEL(restoreval) _xtos_set_intlevel(restoreval)
+[0.377s]                                                                     ^~~~~~~~~~
+[0.377s] In file included from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/portable.h:51,
+[0.377s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/FreeRTOS.h:63,
+[0.377s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_system/include/esp_task.h:32,
+[0.377s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:18,
+[0.377s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.377s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.377s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.377s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.377s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: In function 'xPortGetCoreID':
+[0.378s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:634:12: warning: conversion to 'BaseType_t' {aka 'int'} from 'unsigned int' may change the sign of the result [-Wsign-conversion]
+[0.378s]      return (uint32_t) cpu_hal_get_core_id();
+[0.378s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: In function 'uxPortCompareSetExtram':
+[0.378s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:642:93: warning: unused parameter 'addr' [-Wunused-parameter]
+[0.378s]  static inline void __attribute__((always_inline)) uxPortCompareSetExtram(volatile uint32_t *addr, uint32_t compare, uint32_t *set)
+[0.378s]                                                                           ~~~~~~~~~~~~~~~~~~~^~~~
+[0.378s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:642:108: warning: unused parameter 'compare' [-Wunused-parameter]
+[0.378s]  static inline void __attribute__((always_inline)) uxPortCompareSetExtram(volatile uint32_t *addr, uint32_t compare, uint32_t *set)
+[0.378s]                                                                                                    ~~~~~~~~~^~~~~~~
+[0.378s] gmake[1]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[0.378s] gmake[2]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[0.378s] gmake[3]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[0.378s] gmake[3]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[0.378s] gmake[3]: Entering directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[0.378s] [ 16%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.obj
+[0.378s] [ 16%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.obj
+[0.378s] [ 16%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.obj
+[0.378s] [ 16%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.obj
+[0.379s] [ 20%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.obj
+[0.379s] [ 20%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.obj
+[0.379s] [ 23%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.obj
+[0.379s] [ 30%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.obj
+[0.379s] [ 40%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.obj
+[0.379s] [ 33%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.obj
+[0.379s] [ 40%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.obj
+[0.379s] [ 40%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.obj
+[0.379s] [ 43%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.obj
+[0.379s] [ 46%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.obj
+[0.379s] [ 53%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.obj
+[0.379s] [ 53%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.obj
+[0.379s] [ 56%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.obj
+[0.379s] [ 60%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.obj
+[0.379s] [ 73%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.obj
+[0.379s] [ 73%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.obj
+[0.379s] [ 73%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.obj
+[0.379s] [ 73%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.obj
+[0.379s] [ 76%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.obj
+[0.379s] [ 80%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.obj
+[0.379s] [ 83%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c.obj
+[0.380s] [ 86%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.obj
+[0.380s] [ 90%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.obj
+[0.380s] [ 93%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.obj
+[0.380s] [ 96%] Building C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c.obj
+[0.411s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:642:127: warning: unused parameter 'set' [-Wunused-parameter]
+[0.411s]  static inline void __attribute__((always_inline)) uxPortCompareSetExtram(volatile uint32_t *addr, uint32_t compare, uint32_t *set)
+[0.411s]                                                                                                                      ~~~~~~~~~~^~~
+[0.411s] In file included from /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:40,
+[0.411s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/portable.h:51,
+[0.411s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/FreeRTOS.h:63,
+[0.412s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_system/include/esp_task.h:32,
+[0.412s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:18,
+[0.413s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.414s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.414s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.415s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.415s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: In function 'vPortClearInterruptMaskFromISR':
+[0.415s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: At top level:
+[0.415s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:717:1: warning: ISO C99 does not support '_Static_assert' [-Wpedantic]
+[0.416s]  _Static_assert(portGET_ARGUMENT_COUNT() == 0, "portGET_ARGUMENT_COUNT() result does not match for 0 arguments");
+[0.416s]  ^~~~~~~~~~~~~~
+[0.417s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:571:32: warning: conversion to 'int' from 'UBaseType_t' {aka 'unsigned int'} may change the sign of the result [-Wsign-conversion]
+[0.417s]      XTOS_RESTORE_JUST_INTLEVEL(prev_level);
+[0.418s]                                 ^~~~~~~~~~
+[0.418s] /home/xu/esp/v4.4/esp-idf/components/xtensa/include/xtensa/xtruntime.h:108:68: note: in definition of macro 'XTOS_RESTORE_JUST_INTLEVEL'
+[0.418s]  # define XTOS_RESTORE_JUST_INTLEVEL(restoreval) _xtos_set_intlevel(restoreval)
+[0.418s]                                                                     ^~~~~~~~~~
+[0.418s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:718:1: warning: ISO C99 does not support '_Static_assert' [-Wpedantic]
+[0.418s]  _Static_assert(portGET_ARGUMENT_COUNT(1) == 1, "portGET_ARGUMENT_COUNT() result does not match for 1 argument");
+[0.418s]  ^~~~~~~~~~~~~~
+[0.418s] In file included from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/portable.h:51,
+[0.418s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/FreeRTOS.h:63,
+[0.418s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_system/include/esp_task.h:32,
+[0.418s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:18,
+[0.418s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.418s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.419s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.419s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.419s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: In function 'xPortGetCoreID':
+[0.419s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:634:12: warning: conversion to 'BaseType_t' {aka 'int'} from 'unsigned int' may change the sign of the result [-Wsign-conversion]
+[0.419s]      return (uint32_t) cpu_hal_get_core_id();
+[0.419s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: In function 'uxPortCompareSetExtram':
+[0.419s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:642:93: warning: unused parameter 'addr' [-Wunused-parameter]
+[0.419s]  static inline void __attribute__((always_inline)) uxPortCompareSetExtram(volatile uint32_t *addr, uint32_t compare, uint32_t *set)
+[0.419s]                                                                           ~~~~~~~~~~~~~~~~~~~^~~~
+[0.420s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:642:108: warning: unused parameter 'compare' [-Wunused-parameter]
+[0.420s]  static inline void __attribute__((always_inline)) uxPortCompareSetExtram(volatile uint32_t *addr, uint32_t compare, uint32_t *set)
+[0.420s]                                                                                                    ~~~~~~~~~^~~~~~~
+[0.420s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:642:127: warning: unused parameter 'set' [-Wunused-parameter]
+[0.420s]  static inline void __attribute__((always_inline)) uxPortCompareSetExtram(volatile uint32_t *addr, uint32_t compare, uint32_t *set)
+[0.421s]                                                                                                                      ~~~~~~~~~~^~~
+[0.421s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: At top level:
+[0.421s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:717:1: warning: ISO C99 does not support '_Static_assert' [-Wpedantic]
+[0.421s]  _Static_assert(portGET_ARGUMENT_COUNT() == 0, "portGET_ARGUMENT_COUNT() result does not match for 0 arguments");
+[0.421s]  ^~~~~~~~~~~~~~
+[0.421s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:718:1: warning: ISO C99 does not support '_Static_assert' [-Wpedantic]
+[0.421s]  _Static_assert(portGET_ARGUMENT_COUNT(1) == 1, "portGET_ARGUMENT_COUNT() result does not match for 1 argument");
+[0.421s]  ^~~~~~~~~~~~~~
+[0.421s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.421s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.421s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.421s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.421s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:768: warning: "LWIP_IPV6" redefined
+[0.421s]  #define LWIP_IPV6                       CONFIG_LWIP_IPV6
+[0.422s]  
+[0.422s] <command-line>: note: this is the location of the previous definition
+[0.422s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:38,
+[0.422s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.422s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.422s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.422s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.422s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.422s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.422s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/errno.h:10:2: warning: #include_next is a GCC extension
+[0.422s]  #include_next "errno.h"
+[0.422s]   ^~~~~~~~~~~~
+[0.422s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.423s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.423s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.423s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.423s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:768: warning: "LWIP_IPV6" redefined
+[0.423s]  #define LWIP_IPV6                       CONFIG_LWIP_IPV6
+[0.423s]  
+[0.423s] <command-line>: note: this is the location of the previous definition
+[0.423s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:38,
+[0.423s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.423s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.423s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.423s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.423s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.423s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.424s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/errno.h:10:2: warning: #include_next is a GCC extension
+[0.424s]  #include_next "errno.h"
+[0.424s]   ^~~~~~~~~~~~
+[0.424s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.424s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.424s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.424s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.424s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.424s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:125:19: warning: redefinition of typedef 'u8_t' [-Wpedantic]
+[0.424s]  typedef uint8_t   u8_t;
+[0.424s]                    ^~~~
+[0.424s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.424s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.424s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.424s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.425s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.425s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.425s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:57:18: note: previous declaration of 'u8_t' was here
+[0.425s]  typedef uint8_t  u8_t;
+[0.425s]                   ^~~~
+[0.425s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.425s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.425s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.425s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.425s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.425s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:126:19: warning: redefinition of typedef 's8_t' [-Wpedantic]
+[0.425s]  typedef int8_t    s8_t;
+[0.425s]                    ^~~~
+[0.426s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.426s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.426s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.426s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.426s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.426s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.426s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:58:18: note: previous declaration of 's8_t' was here
+[0.426s]  typedef int8_t   s8_t;
+[0.426s]                   ^~~~
+[0.426s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.426s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.426s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.426s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.427s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.427s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:127:19: warning: redefinition of typedef 'u16_t' [-Wpedantic]
+[0.427s]  typedef uint16_t  u16_t;
+[0.427s]                    ^~~~~
+[0.427s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.427s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.427s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.427s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.427s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.427s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.427s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:59:18: note: previous declaration of 'u16_t' was here
+[0.427s]  typedef uint16_t u16_t;
+[0.427s]                   ^~~~~
+[0.428s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.428s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.428s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.428s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.428s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.428s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:125:19: warning: redefinition of typedef 'u8_t' [-Wpedantic]
+[0.428s]  typedef uint8_t   u8_t;
+[0.428s]                    ^~~~
+[0.428s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.428s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.428s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.428s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.428s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.428s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:128:19: warning: redefinition of typedef 's16_t' [-Wpedantic]
+[0.429s]  typedef int16_t   s16_t;
+[0.429s]                    ^~~~~
+[0.429s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.429s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.429s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.429s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.429s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.429s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.429s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:57:18: note: previous declaration of 'u8_t' was here
+[0.429s]  typedef uint8_t  u8_t;
+[0.429s]                   ^~~~
+[0.429s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.429s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.430s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.430s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.430s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.430s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.430s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:60:18: note: previous declaration of 's16_t' was here
+[0.430s]  typedef int16_t  s16_t;
+[0.430s]                   ^~~~~
+[0.430s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.430s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.430s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.430s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.430s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.430s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:129:19: warning: redefinition of typedef 'u32_t' [-Wpedantic]
+[0.430s]  typedef uint32_t  u32_t;
+[0.431s]                    ^~~~~
+[0.431s] In file included from /home/xu/esp/v4.4/esp-idf/components/esp_hw_support/include/soc/compare_set.h:12,
+[0.431s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_hw_support/include/soc/spinlock.h:13,
+[0.431s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:42,
+[0.431s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/portable.h:51,
+[0.431s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/FreeRTOS.h:63,
+[0.431s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_system/include/esp_task.h:32,
+[0.431s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:18,
+[0.431s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.431s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.431s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.431s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.431s] /home/xu/esp/v4.4/esp-idf/components/soc/include/soc/soc_memory_types.h: In function 'esp_ptr_dma_ext_capable':
+[0.432s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.432s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.432s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.432s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.432s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.432s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:126:19: warning: redefinition of typedef 's8_t' [-Wpedantic]
+[0.432s]  typedef int8_t    s8_t;
+[0.432s]                    ^~~~
+[0.432s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.432s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.432s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.432s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.432s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.432s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.433s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:58:18: note: previous declaration of 's8_t' was here
+[0.433s]  typedef int8_t   s8_t;
+[0.433s]                   ^~~~
+[0.433s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.433s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.433s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.433s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.433s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.433s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:127:19: warning: redefinition of typedef 'u16_t' [-Wpedantic]
+[0.433s]  typedef uint16_t  u16_t;
+[0.433s]                    ^~~~~
+[0.433s] /home/xu/esp/v4.4/esp-idf/components/soc/include/soc/soc_memory_types.h:34:66: warning: unused parameter 'p' [-Wunused-parameter]
+[0.433s]  inline static bool IRAM_ATTR esp_ptr_dma_ext_capable(const void *p)
+[0.433s]                                                       ~~~~~~~~~~~~^
+[0.434s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.434s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.434s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.434s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.434s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.434s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.434s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:59:18: note: previous declaration of 'u16_t' was here
+[0.434s]  typedef uint16_t u16_t;
+[0.434s]                   ^~~~~
+[0.434s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.434s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.434s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.434s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.434s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.435s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:128:19: warning: redefinition of typedef 's16_t' [-Wpedantic]
+[0.435s]  typedef int16_t   s16_t;
+[0.435s]                    ^~~~~
+[0.435s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.435s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.435s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.435s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.435s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.435s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.435s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:61:18: note: previous declaration of 'u32_t' was here
+[0.435s]  typedef uint32_t u32_t;
+[0.435s]                   ^~~~~
+[0.435s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.435s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.436s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.436s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.436s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.436s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.436s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:60:18: note: previous declaration of 's16_t' was here
+[0.436s]  typedef int16_t  s16_t;
+[0.436s]                   ^~~~~
+[0.436s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.436s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.436s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.436s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.436s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.436s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:130:19: warning: redefinition of typedef 's32_t' [-Wpedantic]
+[0.437s]  typedef int32_t   s32_t;
+[0.437s]                    ^~~~~
+[0.437s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.437s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.437s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.437s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.437s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.437s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:129:19: warning: redefinition of typedef 'u32_t' [-Wpedantic]
+[0.437s]  typedef uint32_t  u32_t;
+[0.437s]                    ^~~~~
+[0.437s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.437s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.437s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.437s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.438s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.438s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.438s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:62:18: note: previous declaration of 's32_t' was here
+[0.438s]  typedef int32_t  s32_t;
+[0.438s]                   ^~~~~
+[0.438s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.438s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.438s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.438s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.438s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.438s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.438s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:61:18: note: previous declaration of 'u32_t' was here
+[0.438s]  typedef uint32_t u32_t;
+[0.439s]                   ^~~~~
+[0.439s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.439s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.439s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.439s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.439s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.439s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:130:19: warning: redefinition of typedef 's32_t' [-Wpedantic]
+[0.439s]  typedef int32_t   s32_t;
+[0.439s]                    ^~~~~
+[0.439s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.439s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.439s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.439s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/inet.h:43,
+[0.439s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arpa/inet.h:18,
+[0.440s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:18:
+[0.440s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:62:18: note: previous declaration of 's32_t' was here
+[0.440s]  typedef int32_t  s32_t;
+[0.440s]                   ^~~~~
+[0.441s] In file included from /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:40,
+[0.441s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/portable.h:51,
+[0.441s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/FreeRTOS.h:63,
+[0.441s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_system/include/esp_task.h:32,
+[0.441s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:18,
+[0.441s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.441s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.441s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.441s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.441s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: In function 'vPortClearInterruptMaskFromISR':
+[0.441s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:571:32: warning: conversion to 'int' from 'UBaseType_t' {aka 'unsigned int'} may change the sign of the result [-Wsign-conversion]
+[0.442s]      XTOS_RESTORE_JUST_INTLEVEL(prev_level);
+[0.442s]                                 ^~~~~~~~~~
+[0.442s] /home/xu/esp/v4.4/esp-idf/components/xtensa/include/xtensa/xtruntime.h:108:68: note: in definition of macro 'XTOS_RESTORE_JUST_INTLEVEL'
+[0.442s]  # define XTOS_RESTORE_JUST_INTLEVEL(restoreval) _xtos_set_intlevel(restoreval)
+[0.442s]                                                                     ^~~~~~~~~~
+[0.442s] In file included from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/portable.h:51,
+[0.442s]                  from /home/xu/esp/v4.4/esp-idf/components/freertos/include/freertos/FreeRTOS.h:63,
+[0.442s]                  from /home/xu/esp/v4.4/esp-idf/components/esp_system/include/esp_task.h:32,
+[0.442s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:18,
+[0.442s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.442s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.442s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.442s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.442s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: In function 'xPortGetCoreID':
+[0.442s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:634:12: warning: conversion to 'BaseType_t' {aka 'int'} from 'unsigned int' may change the sign of the result [-Wsign-conversion]
+[0.442s]      return (uint32_t) cpu_hal_get_core_id();
+[0.442s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: In function 'uxPortCompareSetExtram':
+[0.442s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:642:93: warning: unused parameter 'addr' [-Wunused-parameter]
+[0.443s]  static inline void __attribute__((always_inline)) uxPortCompareSetExtram(volatile uint32_t *addr, uint32_t compare, uint32_t *set)
+[0.443s]                                                                           ~~~~~~~~~~~~~~~~~~~^~~~
+[0.443s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:642:108: warning: unused parameter 'compare' [-Wunused-parameter]
+[0.443s]  static inline void __attribute__((always_inline)) uxPortCompareSetExtram(volatile uint32_t *addr, uint32_t compare, uint32_t *set)
+[0.443s]                                                                                                    ~~~~~~~~~^~~~~~~
+[0.443s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:642:127: warning: unused parameter 'set' [-Wunused-parameter]
+[0.443s]  static inline void __attribute__((always_inline)) uxPortCompareSetExtram(volatile uint32_t *addr, uint32_t compare, uint32_t *set)
+[0.443s]                                                                                                                      ~~~~~~~~~~^~~
+[0.443s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h: At top level:
+[0.443s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:717:1: warning: ISO C99 does not support '_Static_assert' [-Wpedantic]
+[0.443s]  _Static_assert(portGET_ARGUMENT_COUNT() == 0, "portGET_ARGUMENT_COUNT() result does not match for 0 arguments");
+[0.443s]  ^~~~~~~~~~~~~~
+[0.443s] /home/xu/esp/v4.4/esp-idf/components/freertos/port/xtensa/include/freertos/portmacro.h:718:1: warning: ISO C99 does not support '_Static_assert' [-Wpedantic]
+[0.443s]  _Static_assert(portGET_ARGUMENT_COUNT(1) == 1, "portGET_ARGUMENT_COUNT() result does not match for 1 argument");
+[0.443s]  ^~~~~~~~~~~~~~
+[0.960s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:51,
+[0.961s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.961s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.961s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.961s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/lwipopts.h:768: warning: "LWIP_IPV6" redefined
+[0.962s]  #define LWIP_IPV6                       CONFIG_LWIP_IPV6
+[0.962s]  
+[0.962s] <command-line>: note: this is the location of the previous definition
+[0.962s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:38,
+[0.962s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.962s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.962s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.962s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.962s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.962s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.963s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/errno.h:10:2: warning: #include_next is a GCC extension
+[0.963s]  #include_next "errno.h"
+[0.963s]   ^~~~~~~~~~~~
+[0.963s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:38,
+[0.963s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.963s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/net/if.h:33:15: warning: redefinition of typedef 'socklen_t' [-Wpedantic]
+[0.963s]  typedef u32_t socklen_t;
+[0.963s]                ^~~~~~~~~
+[0.963s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.963s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:5:
+[0.963s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:111:15: note: previous declaration of 'socklen_t' was here
+[0.963s]  typedef u32_t socklen_t;
+[0.963s]                ^~~~~~~~~
+[0.963s] In file included from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/udp/udp_transport_posix_nopoll.c:6:
+[0.963s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/sys/time.h:16:2: warning: #include_next is a GCC extension
+[0.963s]  #include_next <sys/time.h>
+[0.963s]   ^~~~~~~~~~~~
+[0.963s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:38,
+[0.963s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:20:
+[0.963s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/net/if.h:33:15: warning: redefinition of typedef 'socklen_t' [-Wpedantic]
+[0.963s]  typedef u32_t socklen_t;
+[0.963s]                ^~~~~~~~~
+[0.963s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.963s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/transport/ip/ip_posix.c:20:
+[0.963s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:111:15: note: previous declaration of 'socklen_t' was here
+[0.964s]  typedef u32_t socklen_t;
+[0.964s]                ^~~~~~~~~
+[0.964s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.964s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.964s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.964s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.964s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.964s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:125:19: warning: redefinition of typedef 'u8_t' [-Wpedantic]
+[0.964s]  typedef uint8_t   u8_t;
+[0.964s]                    ^~~~
+[0.964s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.964s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.964s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.964s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.964s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.964s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.964s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:57:18: note: previous declaration of 'u8_t' was here
+[0.964s]  typedef uint8_t  u8_t;
+[0.964s]                   ^~~~
+[0.964s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.964s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.964s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.964s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.964s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.964s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:126:19: warning: redefinition of typedef 's8_t' [-Wpedantic]
+[0.965s]  typedef int8_t    s8_t;
+[0.965s]                    ^~~~
+[0.965s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.965s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.965s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.965s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.965s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.965s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.965s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:58:18: note: previous declaration of 's8_t' was here
+[0.965s]  typedef int8_t   s8_t;
+[0.965s]                   ^~~~
+[0.965s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.965s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.965s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.965s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.965s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.965s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:127:19: warning: redefinition of typedef 'u16_t' [-Wpedantic]
+[0.965s]  typedef uint16_t  u16_t;
+[0.965s]                    ^~~~~
+[0.966s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.966s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.967s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.967s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.967s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.967s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.967s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:59:18: note: previous declaration of 'u16_t' was here
+[0.967s]  typedef uint16_t u16_t;
+[0.967s]                   ^~~~~
+[0.967s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.967s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.967s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.967s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.967s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.967s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:128:19: warning: redefinition of typedef 's16_t' [-Wpedantic]
+[0.967s]  typedef int16_t   s16_t;
+[0.967s]                    ^~~~~
+[0.967s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.967s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.967s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.967s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.967s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.967s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.967s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:60:18: note: previous declaration of 's16_t' was here
+[0.967s]  typedef int16_t  s16_t;
+[0.967s]                   ^~~~~
+[0.967s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.968s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.968s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.968s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.968s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.968s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:129:19: warning: redefinition of typedef 'u32_t' [-Wpedantic]
+[0.968s]  typedef uint32_t  u32_t;
+[0.968s]                    ^~~~~
+[0.968s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.968s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.968s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.968s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.968s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.968s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.968s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:61:18: note: previous declaration of 'u32_t' was here
+[0.968s]  typedef uint32_t u32_t;
+[0.968s]                   ^~~~~
+[0.968s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.968s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.968s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.968s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.968s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.968s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:130:19: warning: redefinition of typedef 's32_t' [-Wpedantic]
+[0.968s]  typedef int32_t   s32_t;
+[0.968s]                    ^~~~~
+[0.968s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/arch.h:48,
+[0.969s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/debug.h:40,
+[0.969s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/opt.h:52,
+[0.969s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:42,
+[0.969s]                  from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.969s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.969s] /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/arch/cc.h:62:18: note: previous declaration of 's32_t' was here
+[0.969s]  typedef int32_t  s32_t;
+[0.969s]                   ^~~~~
+[0.971s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:38,
+[0.971s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.971s] /home/xu/esp/v4.4/esp-idf/components/newlib/platform_include/net/if.h:33:15: warning: redefinition of typedef 'socklen_t' [-Wpedantic]
+[0.971s]  typedef u32_t socklen_t;
+[0.971s]                ^~~~~~~~~
+[0.971s] In file included from /home/xu/esp/v4.4/esp-idf/components/lwip/port/esp32/include/sys/socket.h:33,
+[0.971s]                  from /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client/src/c/profile/discovery/transport/udp_transport_datagram_posix_nopoll.c:4:
+[0.971s] /home/xu/esp/v4.4/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:111:15: note: previous declaration of 'socklen_t' was here
+[0.971s]  typedef u32_t socklen_t;
+[0.971s]                ^~~~~~~~~
+[0.980s] [100%] Linking C static library libmicroxrcedds_client.a
+[0.997s] gmake[3]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[1.006s] [100%] Built target microxrcedds_client
+[1.007s] gmake[2]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[1.030s] gmake[1]: Leaving directory '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client'
+[1.032s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --build /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client
+[1.076s] Invoking command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --install /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client
+[1.080s] -- Install configuration: "Release"
+[1.081s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/libmicroxrcedds_client.a
+[1.081s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client
+[1.082s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile
+[1.083s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport
+[1.084s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/custom
+[1.084s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/custom/custom_transport.h
+[1.084s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/can
+[1.085s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/can/can_transport_posix.h
+[1.085s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/can/can_transport.h
+[1.085s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip
+[1.085s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp
+[1.085s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[1.085s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[1.085s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[1.085s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[1.086s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[1.098s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[1.098s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/ip.h
+[1.098s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp
+[1.098s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[1.098s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[1.099s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[1.099s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[1.099s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[1.099s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[1.099s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/serial
+[1.099s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[1.099s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[1.100s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[1.100s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/serial/serial_transport.h
+[1.100s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/stream_framing
+[1.100s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[1.100s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/multithread
+[1.100s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/multithread/multithread.h
+[1.100s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/discovery
+[1.100s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/profile/discovery/discovery.h
+[1.101s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core
+[1.101s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session
+[1.101s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/create_entities_ref.h
+[1.101s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/create_entities_xml.h
+[1.101s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/object_id.h
+[1.101s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/common_create_entities.h
+[1.101s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/write_access.h
+[1.101s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/session_info.h
+[1.102s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/read_access.h
+[1.102s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream
+[1.102s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/stream_storage.h
+[1.102s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/seq_num.h
+[1.102s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/output_reliable_stream.h
+[1.102s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/input_reliable_stream.h
+[1.102s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[1.102s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/reliable_stream.h
+[1.102s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/stream_id.h
+[1.103s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[1.103s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/session.h
+[1.103s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/create_entities_bin.h
+[1.103s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/session/time_sync.h
+[1.103s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/type
+[1.103s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/type/xrce_types.h
+[1.103s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/communication
+[1.103s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/core/communication/communication.h
+[1.103s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/defines.h
+[1.113s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/visibility.h
+[1.113s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/util
+[1.114s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/util/ping.h
+[1.114s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/util/time.h
+[1.114s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/client.h
+[1.114s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/transport.h
+[1.115s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/include/uxr/client/config.h
+[1.115s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[1.115s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[1.116s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[1.116s] -- Installing: /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[1.116s] Invoked command in '/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/install/lib/python3.10/site-packages:${PYTHONPATH} X_CFLAGS=-mlongcalls -Wno-frame-address X_CXXFLAGS=-mlongcalls -Wno-frame-address /usr/bin/cmake --install /home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/build/microxrcedds_client

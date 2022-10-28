@@ -1,0 +1,9 @@
+{
+  "package_name": "trajectory_msgs",
+  "non_idl_tuples": [
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/trajectory_msgs:msg/JointTrajectory.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/trajectory_msgs:msg/JointTrajectoryPoint.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/trajectory_msgs:msg/MultiDOFJointTrajectory.msg",
+    "/home/xu/esp/test/micro_ros_espidf_component/micro_ros_src/src/common_interfaces/trajectory_msgs:msg/MultiDOFJointTrajectoryPoint.msg"
+  ]
+}
