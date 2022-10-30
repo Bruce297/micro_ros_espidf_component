@@ -18,6 +18,13 @@
 #include "driver/gpio.h"
 #include "sdkconfig.h"
 
+#include <stdio.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "driver/gpio.h"
+#include "esp_log.h"
+#include "sdkconfig.h"
+
 #ifdef CONFIG_MICRO_ROS_ESP_XRCE_DDS_MIDDLEWARE
 #include <rmw_microros/rmw_microros.h>
 #endif
@@ -34,33 +41,32 @@ uint64_t cb_time_1 = 0;
 uint64_t cb_time_2 = 0;
 
 static uint8_t s_led_state = 0;
-#define BLINK_GPIO 15
+#define BLINK_GPIO 48
 
 static const char *TAG = "ROS";
-
-static void configure_led(void)
-{
-	ESP_LOGI(TAG, "Example configured to blink GPIO LED!");
-	gpio_reset_pin(BLINK_GPIO);
-	/* Set the GPIO as a push/pull output */
-	gpio_set_direction(BLINK_GPIO, GPIO_MODE_OUTPUT);
-}
 
 void timer_callback(rcl_timer_t * timer, int64_t last_call_time)
 {
 	(void) last_call_time;
 	if (timer != NULL) {
+		uint64_t t1 = esp_timer_get_time();
 		RCSOFTCHECK(rcl_publish(&publisher, &send_msg, NULL));
-		printf("Sent: %d\n", send_msg.data);
+		// uint64_t t1 = esp_timer_get_time();
+		// printf("Sent: %d\n", send_msg.data);
 		send_msg.data++;
+		// uint64_t t1 = esp_timer_get_time();
+		uint64_t t2 = esp_timer_get_time();
+		printf("time: %dus\n", (int)(t2 - t1));
 
-		cb_time_2 = esp_timer_get_time();
-		printf("time: %dus\n", (int)(cb_time_2 - cb_time_1));
+
+		// cb_time_2 = esp_timer_get_time();
+		// printf("time: %dus\n", (int)(cb_time_2 - cb_time_1));
 		// printf("time: %dus\n", (int)(cb_time_2 - cb_time_1-1000000));
-		cb_time_1 = cb_time_2;
+		// cb_time_1 = cb_time_2;
 
-		gpio_set_level(BLINK_GPIO, s_led_state);
-		s_led_state = !s_led_state;
+    	/* Set the GPIO level according to the state (LOW or HIGH)*/
+    	gpio_set_level(BLINK_GPIO, s_led_state);
+        s_led_state = !s_led_state;
 	}
 }
 
@@ -147,7 +153,10 @@ void app_main(void)
     ESP_ERROR_CHECK(uros_network_interface_initialize());
 #endif
 
-	configure_led();
+    ESP_LOGI(TAG, "Example configured to blink GPIO LED!");
+    gpio_reset_pin(BLINK_GPIO);
+    /* Set the GPIO as a push/pull output */
+    gpio_set_direction(BLINK_GPIO, GPIO_MODE_OUTPUT);
 
     //pin micro-ros task in APP_CPU to make PRO_CPU to deal with wifi:
     xTaskCreate(micro_ros_task,
