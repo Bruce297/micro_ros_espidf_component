@@ -3,3 +3,7 @@ micro_ros_src
 esp32_toolchain.cmake
 *.a
 include
+
+examples/**/build
+components/**/build
+.vscode/
