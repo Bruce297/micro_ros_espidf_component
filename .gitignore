@@ -7,3 +7,4 @@ include
 examples/**/build
 components/**/build
 .vscode/
+build
