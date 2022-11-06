@@ -278,4 +278,14 @@ endmenu
 
 endif # MICRO_ROS_ESP_UART_TRANSPORT
 
+
+menu "micro-ROS trace"
+
+config MICROROS_TRACE
+    bool "Enable micro-ros trace"
+        default 0
+        help
+
+endmenu
+
 endmenu
