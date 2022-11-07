@@ -9,7 +9,8 @@
 #include "esp_timer.h"
 
 #include "esp_app_trace.h"
-#include "trace_log_simple.h"
+
+#include "trace_log.h"
 
 static const char *TAG = "TRACE_test";
 
@@ -24,6 +25,7 @@ static uint8_t s_led_state = 0;
 
 void app_main(void)
 {
+    // ttt();
     vTaskDelay(1);
     trace_conf_init();
     trace_conf_show();
